@@ -182,5 +182,23 @@ namespace ScreenSaver
             if (!previewMode)
                 Application.Exit();
         }
+
+        //private void ScreenSaverForm_MouseDown(object sender, MouseEventArgs e)
+        //{
+        //    if (!previewMode)
+        //    {
+        //        // Exit the screensaver if not in preview mode
+        //        Application.Exit();
+        //    }
+        //}
+
+        //private void ScreenSaverForm_MouseUp(object sender, MouseEventArgs e)
+        //{
+        //    if (!previewMode)
+        //    {
+        //        // Exit the screensaver if not in preview mode
+        //        Application.Exit();
+        //    }
+        //}
     }
 }

@@ -10,7 +10,6 @@ c:\users\fmccown\documents\visual studio 2010\Projects\ScreenSaver\ScreenSaver\o
 C:\Users\fmccown\documents\visual studio 2010\Projects\ScreenSaver\ScreenSaver\obj\x86\Debug\ScreenSaver.SettingsForm.resources
 C:\Users\MOHAMMAD.RABIUL\Downloads\ScreenSaver (1)\ScreenSaver\ScreenSaver\bin\Debug\ScreenSaver.exe
 C:\Users\MOHAMMAD.RABIUL\Downloads\ScreenSaver (1)\ScreenSaver\ScreenSaver\bin\Debug\ScreenSaver.pdb
-C:\Users\MOHAMMAD.RABIUL\Downloads\ScreenSaver (1)\ScreenSaver\ScreenSaver\obj\x86\Debug\ScreenSaver.csprojAssemblyReference.cache
 C:\Users\MOHAMMAD.RABIUL\Downloads\ScreenSaver (1)\ScreenSaver\ScreenSaver\obj\x86\Debug\ScreenSaver.SettingsForm.resources
 C:\Users\MOHAMMAD.RABIUL\Downloads\ScreenSaver (1)\ScreenSaver\ScreenSaver\obj\x86\Debug\ScreenSaver.Properties.Resources.resources
 C:\Users\MOHAMMAD.RABIUL\Downloads\ScreenSaver (1)\ScreenSaver\ScreenSaver\obj\x86\Debug\ScreenSaver.ScreenSaverForm.resources
