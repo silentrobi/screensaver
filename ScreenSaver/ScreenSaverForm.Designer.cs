@@ -44,8 +44,9 @@
             this.pictureBox3.Image = global::ScreenSaver.Properties.Resources.SC3;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(677, 319);
-            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.Size = new System.Drawing.Size(677, 320);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox1
@@ -53,18 +54,19 @@
             this.pictureBox1.Image = global::ScreenSaver.Properties.Resources.SC2;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(677, 319);
-            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.Size = new System.Drawing.Size(677, 320);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Blue;
             this.pictureBox2.Image = global::ScreenSaver.Properties.Resources.SC1;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(677, 319);
-            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.Size = new System.Drawing.Size(677, 320);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // ScreenSaverForm
