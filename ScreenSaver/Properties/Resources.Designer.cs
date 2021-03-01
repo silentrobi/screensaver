@@ -63,9 +63,9 @@ namespace ScreenSaver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SC1 {
+        internal static System.Drawing.Bitmap forest_fog_trees_126479_1920x1080 {
             get {
-                object obj = ResourceManager.GetObject("SC1", resourceCulture);
+                object obj = ResourceManager.GetObject("forest_fog_trees_126479_1920x1080", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace ScreenSaver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SC2 {
+        internal static System.Drawing.Bitmap ocean_island_aerial_view_132124_1920x1080 {
             get {
-                object obj = ResourceManager.GetObject("SC2", resourceCulture);
+                object obj = ResourceManager.GetObject("ocean_island_aerial_view_132124_1920x1080", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace ScreenSaver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SC3 {
+        internal static System.Drawing.Bitmap road_asphalt_marking_130996_1920x1080 {
             get {
-                object obj = ResourceManager.GetObject("SC3", resourceCulture);
+                object obj = ResourceManager.GetObject("road_asphalt_marking_130996_1920x1080", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

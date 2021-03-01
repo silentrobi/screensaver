@@ -1,21 +1,7 @@
-﻿/*
- * ScreenSaverForm.cs
- * By Frank McCown
- * Summer 2010
- * 
- * Feel free to modify this code.
- */
-
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-using Microsoft.Win32;
 
 namespace ScreenSaver
 {
@@ -181,6 +167,16 @@ namespace ScreenSaver
         {
             if (!previewMode)
                 Application.Exit();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
 
         //private void ScreenSaverForm_MouseDown(object sender, MouseEventArgs e)

@@ -87,13 +87,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SC1.png" />
+    <None Include="Resources\ocean_island_aerial_view_132124_1920x1080.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SC2.png" />
+    <None Include="Resources\forest_fog_trees_126479_1920x1080.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SC3.png" />
+    <None Include="Resources\road_asphalt_marking_130996_1920x1080.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
