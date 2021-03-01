@@ -58,35 +58,6 @@ namespace ScreenSaver
             previewMode = true;
         }
 
-        //private void ScreenSaverForm_Load(object sender, EventArgs e)
-        //{            
-        //    LoadSettings();
-
-        //    Cursor.Hide();            
-        //    TopMost = true;
-
-        //    moveTimer.Interval = 1000;
-        //    moveTimer.Tick += new EventHandler(moveTimer_Tick);
-        //    moveTimer.Start();
-        //}
-
-        //private void moveTimer_Tick(object sender, System.EventArgs e)
-        //{
-        //    // Move text to new location
-        //    textLabel.Left = rand.Next(Math.Max(1, Bounds.Width - textLabel.Width));
-        //    textLabel.Top = rand.Next(Math.Max(1, Bounds.Height - textLabel.Height));            
-        //}
-
-        //private void LoadSettings()
-        //{
-        //    // Use the string from the Registry if it exists
-        //    RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Demo_ScreenSaver");
-        //    if (key == null)
-        //        textLabel.Text = "C# Screen Saver";
-        //    else
-        //        textLabel.Text = (string)key.GetValue("text");
-        //}
-
         public void InitTimer()
         {
             timer1 = new Timer();
@@ -101,12 +72,9 @@ namespace ScreenSaver
             TopMost = true;
 
             pictureboxFalse(); //this sets all the picturebox to false
-            pictureBox1.Visible = true; //sets the pictureBox1 visiblity true to begin the loop
-            timer1_Tick(sender, e);  //raise timer event once to load image on start
+            pictureBox1.Visible = true; //sets the pictureBox1 visiblity true to begin the loop    
             InitTimer();
-
-           
-
+            timer1_Tick(sender, e);  //raise timer event once to load image on start
         }
 
         public void pictureboxFalse()
@@ -159,6 +127,22 @@ namespace ScreenSaver
         }
 
         private void ScreenSaverForm_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (!previewMode)
+                Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (!previewMode)
+                Application.Exit();
+        }
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (!previewMode)
+                Application.Exit();
+        }
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             if (!previewMode)
                 Application.Exit();
