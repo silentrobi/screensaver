@@ -105,7 +105,7 @@
   -->
 	<Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 	<Target Name="AfterBuild">
-		<Copy SourceFiles="$(TargetDir)\$(TargetName).exe" DestinationFiles="$(ProjectDir)\bin\ssNews.scr"
+		<Copy SourceFiles="$(TargetDir)\$(TargetName).exe" DestinationFiles="$(ProjectDir)\bin\screensaver.scr"
 			  SkipUnchangedFiles="true" />
 	</Target>
 </Project>
