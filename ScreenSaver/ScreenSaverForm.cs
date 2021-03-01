@@ -109,11 +109,6 @@ namespace ScreenSaver
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         public void pictureboxFalse()
         {
             pictureBox3.Visible = false;
@@ -168,33 +163,5 @@ namespace ScreenSaver
             if (!previewMode)
                 Application.Exit();
         }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        //private void ScreenSaverForm_MouseDown(object sender, MouseEventArgs e)
-        //{
-        //    if (!previewMode)
-        //    {
-        //        // Exit the screensaver if not in preview mode
-        //        Application.Exit();
-        //    }
-        //}
-
-        //private void ScreenSaverForm_MouseUp(object sender, MouseEventArgs e)
-        //{
-        //    if (!previewMode)
-        //    {
-        //        // Exit the screensaver if not in preview mode
-        //        Application.Exit();
-        //    }
-        //}
     }
 }
