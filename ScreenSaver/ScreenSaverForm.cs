@@ -50,12 +50,12 @@ namespace ScreenSaver
             SetWindowLong(this.Handle, -16, new IntPtr(GetWindowLong(this.Handle, -16) | 0x40000000));
 
             // Place our window inside the parent
-            Rectangle ParentRect;
-            GetClientRect(PreviewWndHandle, out ParentRect);
-            Size = ParentRect.Size;
-            Location = new Point(0, 0);
+            GetClientRect(PreviewWndHandle, out Rectangle ParentRect);
+            SetBounds(0, 0, Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
+            this.Size = ParentRect.Size;
+            this.Location = new Point(0, 0);
 
-            previewMode = true;
+            this.previewMode = true;
         }
 
         public void InitTimer()
