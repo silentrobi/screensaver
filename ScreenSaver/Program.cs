@@ -1,14 +1,4 @@
-﻿/*
- * Program.cs
- * By Frank McCown
- * Summer 2010
- * 
- * Feel free to modify this code.
- */
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Windows.Forms;
 
 namespace ScreenSaver
@@ -38,12 +28,8 @@ namespace ScreenSaver
                 }
                 else if (args.Length > 1)
                     secondArgument = args[1];
-                
-                if (firstArgument == "/c")           // Configuration mode
-                {
-                    Application.Run(new SettingsForm());
-                }
-                else if (firstArgument == "/p")      // Preview mode
+
+                if (firstArgument == "/p")      // Preview mode
                 {
                     if (secondArgument == null)
                     {
@@ -51,7 +37,7 @@ namespace ScreenSaver
                             "ScreenSaver", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         return;
                     }
-                    
+
                     IntPtr previewWndHandle = new IntPtr(long.Parse(secondArgument));
                     Application.Run(new ScreenSaverForm(previewWndHandle));
                 }
@@ -59,7 +45,7 @@ namespace ScreenSaver
                 {
                     ShowScreenSaver();
                     Application.Run();
-                }  
+                }
                 else    // Undefined argument
                 {
                     MessageBox.Show("Sorry, but the command line argument \"" + firstArgument +
@@ -69,8 +55,8 @@ namespace ScreenSaver
             }
             else    // No arguments - treat like /c
             {
-                Application.Run(new SettingsForm());
-            }            
+                Console.WriteLine("Not in preview mode!");
+            }
         }
 
         /// <summary>
@@ -82,7 +68,7 @@ namespace ScreenSaver
             {
                 ScreenSaverForm screensaver = new ScreenSaverForm(screen.Bounds);
                 screensaver.Show();
-            }           
+            }
         }
     }
 }
