@@ -86,7 +86,7 @@ namespace ScreenSaver
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Dock = DockStyle.Fill;
             this.Name = "ScreenSaverForm";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
