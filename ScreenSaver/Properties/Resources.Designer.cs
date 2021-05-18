@@ -63,9 +63,10 @@ namespace ScreenSaver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap forest_fog_trees_126479_1920x1080 {
+        internal static System.Drawing.Bitmap SET_A_Slide_1
+        {
             get {
-                object obj = ResourceManager.GetObject("forest_fog_trees_126479_1920x1080", resourceCulture);
+                object obj = ResourceManager.GetObject("SET_A_Slide_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +74,10 @@ namespace ScreenSaver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ocean_island_aerial_view_132124_1920x1080 {
+        internal static System.Drawing.Bitmap SET_A_Slide_2
+        {
             get {
-                object obj = ResourceManager.GetObject("ocean_island_aerial_view_132124_1920x1080", resourceCulture);
+                object obj = ResourceManager.GetObject("SET_A_Slide_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +85,10 @@ namespace ScreenSaver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap road_asphalt_marking_130996_1920x1080 {
+        internal static System.Drawing.Bitmap SET_A_Slide_3
+        {
             get {
-                object obj = ResourceManager.GetObject("road_asphalt_marking_130996_1920x1080", resourceCulture);
+                object obj = ResourceManager.GetObject("SET_A_Slide_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -62,7 +62,7 @@ namespace ScreenSaver
         {
             timer1 = new Timer();
             timer1.Tick += new EventHandler(timer1_Tick); //add event
-            timer1.Interval = 5000; // in miliseconds (1 second = 1000 millisecond)
+            timer1.Interval = 10000; // in miliseconds (1 second = 1000 millisecond)
             timer1.Start(); //starts timer
         }
 
