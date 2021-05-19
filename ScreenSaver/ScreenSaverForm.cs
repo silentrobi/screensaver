@@ -72,16 +72,16 @@ namespace ScreenSaver
             TopMost = true;
 
             pictureboxFalse(); //this sets all the picturebox to false
-            pictureBox1.Visible = true; //sets the pictureBox1 visiblity true to begin the loop    
+            pictureBox3.Visible = true; //sets the pictureBox1 visiblity true to begin the loop    
             InitTimer();
             timer1_Tick(sender, e);  //raise timer event once to load image on start
         }
 
         public void pictureboxFalse()
         {
-            pictureBox3.Visible = false;
-            pictureBox2.Visible = false;
             pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox3.Visible = false;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
